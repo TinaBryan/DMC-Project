@@ -1,0 +1,93 @@
+.fill-height {
+	display: flex;
+	flex-direction: column;
+}
+body {
+	background-color: #000; 
+	font-family: 'Poiret One', cursive;
+	font-size: 24px;
+	color: #5CE6B8;
+	text-align: center;
+	padding-top: 400px;
+}
+
+#container {
+	height: 0px;
+	width: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+.logo {
+	margin: 0;
+	top: 0;
+	padding-top: 15px;
+}
+
+.header {
+	background: #000;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	margin: 0px, 0px;
+	padding-top: 0px;
+}
+
+.btn {
+	cursor: pointer;
+	font-color: #7FFFD4;
+  font-size: .875em;
+  font-weight: 400;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25px;
+  border: 2px solid #FFADD6;
+  width: 60px;
+  height: 40px;
+}
+
+.default {
+  background-color: #000;
+}
+
+@media (min-width: 769px) {
+  .inln {
+    width: auto;
+  display: inline-block;
+  }
+}
+
+li {
+	list-style-type: none;
+	margin: 0px;
+	font-size: 20px;
+	padding-top: 15px;
+}
+
+.name {
+	text-align: center;
+	background: #000;
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+	color: #FFFF99;
+}
+
+a:link {
+	color: #7FFFD4;
+	text-decoration: none;
+}
+
+footer strong{
+	font-family: 'Poiret One', cursive;
+	font-size: 18px;
+	color: #FF00FF;
+}
+
+/* mouse over link */
+a:hover {
+	color: #FFFF00;
+}
+
+a {
+	color: #FF4500;
+}
